@@ -1,0 +1,5 @@
+.blizzard--account-menu {
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+}
