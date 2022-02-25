@@ -1,6 +1,10 @@
 .game-card {
     padding: 0;
-    margin: 20px
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
 }
 
 .game-card a {
@@ -19,6 +23,11 @@
 .game-card a,
 .icons {
     color: #a0a0a0a0;
+}
+
+.icons>svg:hover {
+    transition: all 0.5s ease;
+    color: #fff
 }
 
 .game-card .game-image {
