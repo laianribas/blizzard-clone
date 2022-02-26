@@ -26,6 +26,18 @@
 }
 
 .game-image {
+    position: relative;
+    -webkit-animation: scaledown .2s linear;
+    animation: scaledown 0.2s linear;
+    animation-fill-mode: forwards;
+    transform-origin: 50% 50%;
+}
+
+.game-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
     -webkit-animation: scaledown .2s linear;
     animation: scaledown 0.2s linear;
     animation-fill-mode: forwards;
@@ -49,7 +61,8 @@
     width: 275px;
 }
 
-.game-card:hover .game-image {
+.game-card:hover .game-image,
+.game-logo {
     z-index: 100;
     -webkit-animation: scale 0.2s ease;
     animation: scale 0.2s linear;

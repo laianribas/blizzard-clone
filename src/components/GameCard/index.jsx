@@ -8,6 +8,7 @@ const GameCard = (props) => {
       <a href={props.link} target="_blank" rel="noreferrer">
         <div className="game-image">
           <img src={`${props.image}`} />
+          <img src={`${props.logo}`} className="game-logo" />
         </div>
         <h3>{props.title}</h3>
         <p>{props.description}</p>
