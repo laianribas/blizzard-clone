@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/images/blizzard.png'
+import './styles.css'
 
 const Logo = () => {
   return (
