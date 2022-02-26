@@ -10,7 +10,11 @@ const Footer = () => {
         <i className="fas fa-globe-africa globe"></i>
         <p>Português (Brasil)</p>
       </div>
-      <a href="https://www.blizzard.com/pt-br/" target="_blank">
+      <a
+        href="https://www.blizzard.com/pt-br/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img src={logo} alt="blizzard logo" className="blizzard-logo" />
       </a>
       <div className="links">
