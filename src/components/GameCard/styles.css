@@ -61,8 +61,7 @@
     width: 275px;
 }
 
-.game-card:hover .game-image,
-.game-logo {
+.game-card:hover .game-image {
     z-index: 100;
     -webkit-animation: scale 0.2s ease;
     animation: scale 0.2s linear;
